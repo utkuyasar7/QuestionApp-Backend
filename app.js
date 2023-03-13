@@ -15,7 +15,7 @@ config()
 
 
 
-app.listen(3131,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Çalıştım!")
 })
 
