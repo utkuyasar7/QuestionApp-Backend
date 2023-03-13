@@ -6,7 +6,7 @@ const categoryRouter= require("./routes/category")
 const answerRouter = require("./routes/answer")
 app.use(express.json())
 
-app.use("/deneme",postRouter)
+app.use("/question",postRouter)
 app.use("/category",categoryRouter)
 app.use("/answer",answerRouter)
 config()
