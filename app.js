@@ -1,10 +1,10 @@
-
+const config = require("./config.js")
 const express = require("express")
 const app = express()
 // const postRouter = require("./routes/post")
 // const categoryRouter= require("./routes/category")
 // const answerRouter = require("./routes/answer")
-
+config()
 app.use(express.json())
 
 app.get('/', function(req,res){
