@@ -16,7 +16,6 @@ app.get('/', function(req,res){
 // app.use("/category",categoryRouter)
 // app.use("/answer",answerRouter)
 
-config()
 
 app.listen(process.env.PORT | 80,()=>{
     console.log("Çalıştım!")
