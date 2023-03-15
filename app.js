@@ -22,3 +22,5 @@ config()
 app.listen(process.env.PORT,()=>{
     console.log("Çalıştım!")
 })
+
+module.exports = app;
